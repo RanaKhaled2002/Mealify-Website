@@ -1,0 +1,291 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) 
+{
+    /* ------------------------ Navigation Bar ---------------------------------- */
+    .nav-bar .links
+    {
+        justify-content: space-evenly;
+    }
+    /* ------------------------ Home ---------------------------------- */
+    .home .home-content .home-context
+    {
+        width:100%;
+    }
+    .home .home-content .home-img
+    {
+        width: 100%;
+    }
+    /* ------------------------ Chefs ---------------------------------- */
+    .chefs .card
+    {
+        row-gap: 30px;
+    }
+    .chefs .card .block
+    {
+        width: 100%;
+    }
+    /* ------------------------ Gallery ---------------------------------- */
+    .gallery .images .block
+    {
+        width: 100%;
+    }
+    /* ------------------------ Contact ---------------------------------- */
+    .contact .information .content 
+    {
+        flex-basis: 100%;
+    }
+    .contact .form .input input[type=text]
+    {
+        width: 97%;
+    }
+    .contact .form .input input[type=email]
+    {
+        width: 97%;
+    }
+    /* ------------------------ Footer ---------------------------------- */
+    footer .all .mealify 
+    {
+        width: 100%;
+    }
+    footer .all .subscribe
+    {
+        width: 100%;
+    }
+    footer .all .touch
+    {
+        width: 100%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) 
+{
+    /* ------------------------ Navigation Bar ---------------------------------- */
+    .nav-bar .links
+    {
+        justify-content: space-evenly;
+    }
+    /* ------------------------ Home ---------------------------------- */
+    .home .home-content .home-context
+    {
+        width: 100%;
+    }
+    .home .home-content .home-img
+    {
+        width: 100%;
+    }
+    /* ------------------------ Chefs ---------------------------------- */
+    .chefs .card
+    {
+        row-gap: 30px;
+    }
+    .chefs .card .block
+    {
+        width: 100%;
+    }
+    /* ------------------------ Gallery ---------------------------------- */
+    .gallery .images .block
+    {
+        width: 100%;
+    }
+    /* ------------------------ Contact ---------------------------------- */
+    .contact .information .content 
+    {
+        flex-basis: 100%;
+    }
+    .contact .form .input input[type=text]
+    {
+        width: 97%;
+    }
+    .contact .form .input input[type=email]
+    {
+        width: 97%;
+    }
+    /* ------------------------ Footer ---------------------------------- */
+    footer .all .mealify 
+    {
+        width: 100%;
+    }
+    footer .all .subscribe
+    {
+        width: 100%;
+    }
+    footer .all .touch
+    {
+        width: 100%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) 
+{
+    /* ------------------------ Navigation Bar ---------------------------------- */
+    .nav-bar .links
+    {
+        justify-content: space-between;
+    }
+    /* ------------------------ Home ---------------------------------- */
+    .home .home-content .home-context
+    {
+        width: 60%;
+    }
+    .home .home-content .home-img
+    {
+        width: 40%;
+    }
+    /* ------------------------ Chefs ---------------------------------- */
+     .chefs .card
+    {
+        row-gap: 30px;
+    }
+    .chefs .card .block
+    {
+        width: 40%;
+    }
+    /* ------------------------ Gallery ---------------------------------- */
+    .gallery .images .block
+    {
+        width: 40%;
+    }
+    /* ------------------------ Contact ---------------------------------- */
+    .contact .information .content 
+    {
+        flex-basis: 48%;
+    }
+    .contact .form .input input[type=text]
+    {
+        width: 97%;
+    }
+    .contact .form .input input[type=email]
+    {
+        width: 97%;
+    }
+    /* ------------------------ Footer ---------------------------------- */
+    footer .all .mealify 
+    {
+        width: 30%;
+    }
+    footer .all .subscribe
+    {
+        width: 60%;
+    }
+    footer .all .touch
+    {
+        width: 30%;
+    }
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) 
+{
+    /* ------------------------ Navigation Bar ---------------------------------- */
+    .nav-bar .links
+    {
+        justify-content: space-between;
+    }
+    /* ------------------------ Home ---------------------------------- */
+    .home .home-content .home-context
+    {
+        width: 60%;
+    }
+    .home .home-content .home-img
+    {
+        width: 40%;
+    }
+    /* ------------------------ Chefs ---------------------------------- */
+    .chefs .card
+    {
+        row-gap: 30px;
+    }
+    .chefs .card .block
+    {
+        width: 40%;
+    }
+    /* ------------------------ Gallery ---------------------------------- */
+    .gallery .images .block
+    {
+        width: 40%;
+    }
+    /* ------------------------ Contact ---------------------------------- */
+    .contact .information .content 
+    {
+        flex-basis: 48%;
+    }
+    .contact .form .input input[type=email]
+    {
+        width: 47.5%;
+    }
+    .contact .form .input input[type=text]
+    {
+        width: 47.5%;
+    }
+    /* ------------------------ Footer ---------------------------------- */
+    footer .all .mealify 
+    {
+        width: 20%;
+    }
+    footer .all .subscribe
+    {
+        width: 40%;
+    }
+    footer .all .touch
+    {
+        width: 20%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) 
+{
+    /* ------------------------ Navigation Bar ---------------------------------- */
+    .nav-bar .links
+    {
+        justify-content: space-between;
+    }
+    /* ------------------------ Home ---------------------------------- */
+    .home .home-content .home-context
+    {
+        width: 60%;
+    }
+    .home .home-content .home-img
+    {
+        width: 40%;
+    }
+    /* ------------------------ Chefs---------------------------------- */
+    .chefs .card .block
+    {
+        width: 30%;
+    }
+    /* ------------------------ Gallery ---------------------------------- */
+    .gallery .images .block
+    {
+        width: 30%;
+    }
+    /* ------------------------ Contact ---------------------------------- */
+    .contact .information .content 
+    {
+        flex-basis: 48%;
+    }
+    .contact .form .input input[type=email]
+    {
+        width: 47.5%;
+    }
+    .contact .form .input input[type=text]
+    {
+        width: 47.5%;
+    }
+    /* ------------------------ Footer ---------------------------------- */
+    footer .all .mealify 
+    {
+        width: 20%;
+    }
+    footer .all .subscribe
+    {
+        width: 40%;
+    }
+    footer .all .touch
+    {
+        width: 20%;
+    }
+}
